@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Form from "./components/Form";
+import PatientsList from "./components/PatientsList";
 
 function App() {
   return (
@@ -7,6 +8,7 @@ function App() {
       <Header />
       <div className="mt-12 md:flex">
         <Form />
+        <PatientsList/>
       </div>
     </div>
   );
