@@ -1,17 +1,16 @@
-import Header from "./components/Header";
-import Form from "./components/Form";
-import PatientsList from "./components/PatientsList";
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
 
 function App() {
+  const [count, setCount] = useState(0)
+
   return (
-    <div className="container mx-auto mt-5">
-      <Header />
-      <div className="mt-12 md:flex">
-        <Form />
-        <PatientsList/>
-      </div>
-    </div>
-  );
+    <>
+      <h1>Hola mundo</h1>
+    </>
+  )
 }
 
-export default App;
+export default App
